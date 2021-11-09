@@ -65,7 +65,7 @@ function resolveReferenceFields({ fieldNames = [], maxDepth = 2 } = {}) {
             map[object.__metadata.id] = object;
             return map;
         }, {});
-
+        console.log(objectsByFilePath);
         const objects = data.objects.map((object) => {
             let refKeyPathStack = [];
             return mapDeep(object, (value, keyPath) => {
