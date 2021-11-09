@@ -66,6 +66,7 @@ module.exports = {
     ]
 };
 
+
 // Use pagePropsResolvers array to define what additional props a page should get based on one of its nested values.
 // Every item in the array should be a function that receives an option object:
 // (value: string, keyPath: string[], objectStack: any[], data: any) => any
